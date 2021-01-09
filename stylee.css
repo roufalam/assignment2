@@ -50,9 +50,22 @@ h2 {
   text-decoration: none;
   color: navy;
 }
-.last {
+.bnr-card img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+}
+.bnr-card {
+  position: relative;
+}
+
+.bnr-text {
+  position: absolute;
+  top: 37.5%;
+  color: white;
+  padding: 300px;
+}
+h4 {
+  font-size: 40px;
 }
